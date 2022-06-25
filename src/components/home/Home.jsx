@@ -61,7 +61,17 @@ const Home = () => {
                 A simple timestamp generator for the less tech savy ones.
               </span>
               <div className="redirects">
+                <a
+                  href="https://github.com/itstazdev/discord-timestamp-generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
                 <FiGithub className="redirect__icon" />
+                <a
+                  href="https://discord-timestamp-generator-eight.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
                 <FiExternalLink className="redirect__icon" />
               </div>
               {/* 
