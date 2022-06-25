@@ -6,11 +6,11 @@ const Footer = () => {
       {" "}
       <footer className="footer__wrapper ">
         <div className="footer container">
-          <span>© volx 2022</span>
+          <span>© taz 2022</span>
           <ul className="social-redirects">
             <li className="social-redirect__github social-redirect divider">
               <a
-                href="https://github.com/vo1x"
+                href="https://github.com/itstazdev"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -18,11 +18,7 @@ const Footer = () => {
               </a>
             </li>
             <li className="social-redirect__twitter social-redirect ">
-              <a
-                href="https://twitter.com/vo1x_original"
-                rel="noreferrer"
-                target="_blank"
-              >
+              <a href="#" rel="noreferrer" target="_blank">
                 <i className="bi bi-twitter"></i>
               </a>
             </li>
