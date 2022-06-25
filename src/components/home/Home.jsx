@@ -62,17 +62,17 @@ const Home = () => {
             </span>
           </div>
           <div className="contacts">
-            <a href="https://t.me/vo1xNP" rel="noreferrer" target="_blank">
+            <a href="https://t.me/tazwastaken" rel="noreferrer" target="_blank">
               <div className="contact">
                 <FaTelegramPlane />
-                Telegram <span className="username">(@vo1xNP)</span>
+                Telegram <span className="username">(@tazwastaken)</span>
               </div>
             </a>
             <a href="">
               <div className="contact">
                 <FaEnvelope />
                 Email{" "}
-                <span className="username">(vo1x.original@gmail.com)</span>
+                <span className="username">(tazdev.yy@gmail.com)</span>
               </div>
             </a>
           </div>
