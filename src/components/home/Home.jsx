@@ -70,7 +70,8 @@ const Home = () => {
             </a>
             <a href="">
               <div className="contact">
-                <FaEnvelope />Email<span className="username">(tazdev.yy@gmail.com)</span>
+                <FaEnvelope />
+                Email<span className="username">(tazdev.yy@gmail.com)</span>
               </div>
             </a>
           </div>
