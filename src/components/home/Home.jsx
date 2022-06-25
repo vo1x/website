@@ -16,7 +16,7 @@ const Home = () => {
             </span>
           </div>
           <p className="about-me__text">
-            Hi! I'm volx, an aspiring web developer. After learning Python for a
+            Hi! I'm taz, an aspiring web developer. After learning Python for a
             year, I decided to broaden my epic hackerman skills and began
             learning web development, which I have been doing for the past
             month. If you're wondering about my current skill level, it takes me
