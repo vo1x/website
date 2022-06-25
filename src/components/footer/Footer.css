@@ -1,0 +1,40 @@
+.footer__wrapper {
+  color: var(--color-white);
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.social-redirects {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  margin-left: auto;
+}
+
+.social-redirects i {
+  display: block;
+  margin: auto;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+.social-redirects i:hover {
+  color: var(--text-contacts);
+}
+
+.divider {
+  padding-right: 20px;
+  border-right: 1px solid var(--accents-4);
+}

@@ -1,0 +1,77 @@
+.number {
+  font-size: clamp(var(--fz-xl), 3vw, var(--fz-xxl));
+  padding-right: 0.3rem;
+  font-weight: normal;
+}
+
+
+
+/** ABOUT SECTION **/
+.about-me__text {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 30px;
+}
+
+/** PROJECTS SECTION **/
+.project {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.project__name {
+  color: var(--text-contacts);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.learn-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+  width: max-content;
+  font-weight: bold;
+}
+
+.learn-more:hover {
+  box-shadow: inset 0 -1px 0 0 var(--color-white);
+}
+
+
+
+/** CONTACT SECTION **/
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: left;
+  justify-content: center;
+}
+
+.contact {
+  color: var(--text-contacts);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 5px;
+  border-radius: 0.5rem;
+  transition: var(--transition);
+  width: max-content;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.username {
+  color: var(--background);
+  font-size: 1rem;
+}
+
+.contact:hover {
+  background: var(--text-contacts);
+  color: var(--background);
+}
