@@ -65,14 +65,17 @@ const Home = () => {
                   href="https://github.com/itstazdev/discord-timestamp-generator"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
-                <FiGithub className="redirect__icon" />
+                >
+                  <FiGithub className="redirect__icon" />
+                </a>
+
                 <a
                   href="https://discord-timestamp-generator-eight.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
-                ></a>
-                <FiExternalLink className="redirect__icon" />
+                >
+                  <FiExternalLink className="redirect__icon" />
+                </a>
               </div>
               {/* 
               <span className="learn-more">
