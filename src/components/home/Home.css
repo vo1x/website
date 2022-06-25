@@ -13,6 +13,10 @@
   line-height: 30px;
 }
 
+#about {
+  margin-top: 3rem;
+}
+
 /** PROJECTS SECTION **/
 .project {
   display: flex;
@@ -21,7 +25,7 @@
 }
 
 .project__name {
-  color: var(--text-contacts);
+  color: var(--green);
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -40,6 +44,20 @@
 }
 
 
+.redirects {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.redirect__icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.redirect__icon:hover {
+  color: var(--green);
+}
 
 /** CONTACT SECTION **/
 .contacts {
@@ -51,7 +69,7 @@
 }
 
 .contact {
-  color: var(--text-contacts);
+  color: var(--green);
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -67,11 +85,15 @@
 }
 
 .username {
-  color: var(--background);
+  color: var(--slate);
   font-size: 1rem;
 }
 
-.contact:hover {
-  background: var(--text-contacts);
-  color: var(--background);
+
+ul.skills-list li::before {
+  content: "▹";
+  color: var(--green);
+  font-size: var(--fz-sm);
+  line-height: 12px;
+  padding-right: 0.5rem;
 }

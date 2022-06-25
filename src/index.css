@@ -14,15 +14,6 @@
 
 :root {
   --background: #0a192f;
-
-  --theme-yellow: #d19a66;
-  --theme-green: #c3e88d;
-  --text-header: #76cbc3;
-  --text-bold: #ccd6f6;
-  --text-normal: #5c6370;
-  --text-dir: #61afef;
-  --text-misc: #fff;
-  --text-contacts: #b5e8e0;
   --green: #64ffda;
 
   --color-bg-variant: #2c2c6c;
@@ -31,24 +22,12 @@
   --color-white: #fff;
   --color-light: #8892b0;
 
-  --scroll-navbar-shadow: hsla(0, 0%, 100%, 0.1);
-  --hover-color: rgb(0, 0, 0, 0.2);
 
-  --transition: all 400ms ease;
 
   --container-width-lg: 60%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 
-  --accent-button: #000;
-  --accents-8: #fafafa;
-  --accents-7: #eaeaea;
-  --accents-6: #999;
-  --accents-5: #888;
-  --accents-4: #666;
-  --accents-3: #444;
-  --accents-2: #333;
-  --accents-1: #111;
 
   --dark-navy: #020c1b;
   --navy: #0a192f;
@@ -75,8 +54,6 @@
   --fz-xxl: 22px;
   --fz-heading: 32px;
   --border-radius: 4px;
-  --nav-height: 100px;
-  --nav-scroll-height: 70px;
   --tab-height: 42px;
   --tab-width: 120px;
   --easing: cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -121,7 +98,7 @@ body {
 }
 
 .header {
-  font-size: 2rem;
+  font-size: var(--fz-heading);
   font-weight: bold;
   text-align: left;
   color: var(--lightest-slate);

@@ -1,9 +1,12 @@
 import React from "react";
 import "./Home.css";
-import { FaArrowRight } from "react-icons/fa";
+{
+  /*import { FaArrowRight } from "react-icons/fa";*/
+}
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
-
+import { FiGithub } from "react-icons/fi";
+import { FiExternalLink } from "react-icons/fi";
 const Home = () => {
   return (
     <div className="content-wrapper">
@@ -16,13 +19,27 @@ const Home = () => {
             </span>
           </div>
           <p className="about-me__text">
-            Hi! I'm taz, an aspiring web developer. After learning Python for a
-            year, I decided to broaden my epic hackerman skills and began
-            learning web development, which I have been doing for the past
-            month. If you're wondering about my current skill level, it takes me
-            15 minutes to center divs. I'm also interested in mobile app
-            development (Android apps), although, I haven't looked into it all
-            that much.
+            Hello! I'm taz and I enjoy developing things. My interest in web
+            development started back in 2021 when I first tried making a website
+            for my school project — surprisingly getting a navbar to stick to
+            the top is a great way to learn HTML and CSS.
+          </p>
+          <p className="about-me__text">
+            I truly enjoy building web apps but recently Game Development has
+            piqued my interest and I can't wait to dabble in game making!
+          </p>
+
+          <p className="about-me__text">
+            As for my frequently used languages, here are a few I am comfortable
+            with:
+            <ul className="skills-list">
+              <li className="skill">
+                <strong>Javascript</strong>
+              </li>
+              <li className="skill">
+                <strong>Python</strong>
+              </li>
+            </ul>
           </p>
         </div>
       </section>
@@ -43,11 +60,15 @@ const Home = () => {
               <span className="project__desc">
                 A simple timestamp generator for the less tech savy ones.
               </span>
-
+              <div className="redirects">
+                <FiGithub className="redirect__icon" />
+                <FiExternalLink className="redirect__icon" />
+              </div>
+              {/* 
               <span className="learn-more">
                 Learn More
                 <FaArrowRight />
-              </span>
+              </span>*/}
             </div>
           </div>
         </div>
@@ -62,6 +83,7 @@ const Home = () => {
             </span>
           </div>
           <div className="contacts">
+            <p>You can contact me through Telegram or email me directly.</p>
             <a href="https://t.me/tazwastaken" rel="noreferrer" target="_blank">
               <div className="contact">
                 <FaTelegramPlane />
