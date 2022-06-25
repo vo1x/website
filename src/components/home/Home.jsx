@@ -54,9 +54,7 @@ const Home = () => {
           </div>
           <div className="projects">
             <div className="project">
-              <span className="project__name">
-                Discord Timestamp Generator (<em>WIP</em>)
-              </span>
+              <span className="project__name">Discord Timestamp Generator</span>
               <span className="project__desc">
                 A simple timestamp generator for the less tech savy ones.
               </span>

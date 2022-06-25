@@ -7,6 +7,15 @@ const Footer = () => {
       <footer className="footer__wrapper ">
         <div className="footer container">
           <span>© taz 2022</span>
+          <a
+            href="https://github.com/itstazdev/tazdev"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="source-code">
+              <i className="bi bi-github"></i>Source Code
+            </span>
+          </a>
           <ul className="social-redirects">
             <li className="social-redirect__github social-redirect divider">
               <a
