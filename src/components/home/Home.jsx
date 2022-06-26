@@ -68,7 +68,7 @@ const Home = () => {
                 </a>
 
                 <a
-                  href="https://discord-timestamp-generator-eight.vercel.app/"
+                  href="https://discord-timestamp-generator-smoky.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
