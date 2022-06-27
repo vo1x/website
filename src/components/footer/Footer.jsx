@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer container">
           <span>© taz 2022</span>
           <a
-            href="https://github.com/itstazdev/tazdev"
+            href="https://github.com/vo1x/vo1x.xyz"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -19,7 +19,7 @@ const Footer = () => {
           <ul className="social-redirects">
             <li className="social-redirect__github social-redirect divider">
               <a
-                href="https://github.com/itstazdev"
+                href="https://github.com/vo1x"
                 rel="noreferrer"
                 target="_blank"
               >
