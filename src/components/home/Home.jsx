@@ -59,12 +59,16 @@ const Home = () => {
                 A simple timestamp generator for the less tech savy ones.
               </span>
               <div className="redirects">
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://github.com/vo1x/discord-timestamp-generator"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <FiGithub className="redirect__icon" />
                 </a>
 
                 <a
-                  href="https://discord-timestamp-generator-smoky.vercel.app/"
+                  href="https://discord-timestamp-generator-azure.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
