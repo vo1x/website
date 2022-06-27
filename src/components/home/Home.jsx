@@ -19,7 +19,7 @@ const Home = () => {
             </span>
           </div>
           <p className="about-me__text">
-            Hello! I'm taz and I enjoy developing things. My interest in web
+            Hello! I'm volx and I enjoy developing things. My interest in web
             development started back in 2021 when I first tried making a website
             for my school project — surprisingly getting a navbar to stick to
             the top is a great way to learn HTML and CSS.
@@ -59,11 +59,7 @@ const Home = () => {
                 A simple timestamp generator for the less tech savy ones.
               </span>
               <div className="redirects">
-                <a
-                  href="https://github.com/itstazdev/discord-timestamp-generator"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href="" target="_blank" rel="noopener noreferrer">
                   <FiGithub className="redirect__icon" />
                 </a>
 
@@ -95,16 +91,16 @@ const Home = () => {
           </div>
           <div className="contacts">
             <p>You can contact me through Telegram or email me directly.</p>
-            <a href="https://t.me/tazwastaken" rel="noreferrer" target="_blank">
+            <a href="https://t.me/itsvolx" rel="noreferrer" target="_blank">
               <div className="contact">
                 <FaTelegramPlane />
-                Telegram <span className="username">(@tazwastaken)</span>
+                Telegram <span className="username">(@itsvolx)</span>
               </div>
             </a>
             <a href="">
               <div className="contact">
                 <FaEnvelope />
-                Email<span className="username">(tazdev.yy@gmail.com)</span>
+                Email<span className="username">(vo1x.original@gmail.com)</span>
               </div>
             </a>
           </div>

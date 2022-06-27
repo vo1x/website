@@ -6,9 +6,9 @@ const Footer = () => {
       {" "}
       <footer className="footer__wrapper ">
         <div className="footer container">
-          <span>© taz 2022</span>
+          <span>© vo1x 2022</span>
           <a
-            href="https://github.com/vo1x/vo1x.xyz"
+            href="https://github.com/vo1x/website"
             target="_blank"
             rel="noopener noreferrer"
           >
