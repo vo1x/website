@@ -27,9 +27,13 @@ const Footer = () => {
                 <i className="bi bi-github"></i>
               </a>
             </li>
-            <li className="social-redirect__twitter social-redirect ">
-              <a href="#" rel="noreferrer" target="_blank">
-                <i className="bi bi-twitter"></i>
+            <li className="social-redirect__discord social-redirect ">
+              <a
+                href="https://discord.com/users/722727273190391809/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <i className="bi bi-discord"></i>
               </a>
             </li>
           </ul>
