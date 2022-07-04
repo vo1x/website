@@ -23,10 +23,9 @@
 
 .social-redirects i {
   display: block;
-  margin: auto;
   transition: all 0.3s;
   cursor: pointer;
-  margin-left: 20px;
+  margin: auto auto auto 20px;
   font-size: 18px;
 }
 

@@ -1,8 +1,6 @@
 import React from "react";
 import "./Home.css";
-{
-  /*import { FaArrowRight } from "react-icons/fa";*/
-}
+
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";

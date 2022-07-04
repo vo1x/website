@@ -58,7 +58,6 @@ h5 {
   .header__container {
     display: flex;
     flex-direction: column;
-    align-items: left;
   }
 
   .me__text {
