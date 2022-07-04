@@ -23,7 +23,7 @@ const Home = () => {
             the top is a great way to learn HTML and CSS.
           </p>
           <p className="about-me__text">
-            I truly enjoy building web apps but recently Game Development has
+            I truly enjoy building web apps but recently Android App Development
             piqued my interest and I can't wait to dabble in game making!
           </p>
 
