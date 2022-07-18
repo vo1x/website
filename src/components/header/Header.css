@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
 
 .header__container {
   display: flex;
@@ -15,9 +14,9 @@
   flex-direction: row;
   gap: 2rem;
   font-size: 1rem;
-  font-family: -apple-system, 'BlinkMacSystemFont', "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-family: -apple-system, "BlinkMacSystemFont", "SF Mono", "Fira Code",
+    "Fira Mono", "Roboto Mono", monospace;
 }
-
 
 .nav-item {
   display: flex;
@@ -32,8 +31,6 @@
 .nav-item:hover {
   color: var(--green);
 }
-
-
 
 /* =============== ME ============= */
 

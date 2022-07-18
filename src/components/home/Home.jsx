@@ -79,6 +79,35 @@ const Home = () => {
                 <FaArrowRight />
               </span>*/}
             </div>
+
+            <div className="project">
+              <span className="project__name">Sensei Wise Website</span>
+              <span className="project__desc">
+                A simple static website for the Sensei Wise Discord bot.
+              </span>
+              <div className="redirects">
+                <a
+                  href="https://github.com/Sensei-Wise/sensei"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiGithub className="redirect__icon" />
+                </a>
+
+                <a
+                  href="https://senseiwise.xyz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FiExternalLink className="redirect__icon" />
+                </a>
+              </div>
+              {/* 
+              <span className="learn-more">
+                Learn More
+                <FaArrowRight />
+              </span>*/}
+            </div>
           </div>
         </div>
       </section>
