@@ -1,8 +1,5 @@
 .footer__wrapper {
-  color: var(--color-white);
-  padding-top: 4rem;
-  padding-bottom: 1rem;
-  font-size: 1rem;
+  padding: 4rem 0 1rem 0;
   position: relative;
   left: 0;
   bottom: 0;

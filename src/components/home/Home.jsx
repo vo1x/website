@@ -5,16 +5,15 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
+
 const Home = () => {
   return (
     <div className="content-wrapper">
       <section id="about">
         <div className="container about__container">
-          <div className="top-txt ">
-            <span className="header">
-              <span className="serial-number number">01.</span>
-              <span className="title">About Me</span>
-            </span>
+          <div className="header">
+            <span className="serial-number number">01.</span>
+            <span className="title">About Me</span>
           </div>
           <p className="about-me__text">
             Hello! I'm volx and I enjoy developing things. My interest in web
@@ -24,9 +23,8 @@ const Home = () => {
           </p>
           <p className="about-me__text">
             I truly enjoy building web apps but recently Android App Development
-            piqued my interest and I can't wait to dabble in game making!
+            piqued my interest and I can't wait to learn Kotlin!
           </p>
-
           <p className="about-me__text">
             As for my frequently used languages, here are a few I am comfortable
             with:
@@ -44,11 +42,9 @@ const Home = () => {
 
       <section id="projects">
         <div className="container projects__container">
-          <div className="top-txt ">
-            <span className="header">
-              <span className="serial-number number">02.</span>
-              <span className="title">Projects</span>
-            </span>
+          <div className="header">
+            <span className="serial-number number">02.</span>
+            <span className="title">Projects</span>
           </div>
           <div className="projects">
             <div className="project">
@@ -73,11 +69,6 @@ const Home = () => {
                   <FiExternalLink className="redirect__icon" />
                 </a>
               </div>
-              {/* 
-              <span className="learn-more">
-                Learn More
-                <FaArrowRight />
-              </span>*/}
             </div>
 
             <div className="project">
@@ -102,11 +93,6 @@ const Home = () => {
                   <FiExternalLink className="redirect__icon" />
                 </a>
               </div>
-              {/* 
-              <span className="learn-more">
-                Learn More
-                <FaArrowRight />
-              </span>*/}
             </div>
           </div>
         </div>
@@ -114,11 +100,9 @@ const Home = () => {
 
       <section id="contact">
         <div className="container contact__container">
-          <div className="top-txt ">
-            <span className="header">
-              <span className="serial-number number">03.</span>
-              <span className="title">Contact</span>
-            </span>
+          <div className="header">
+            <span className="serial-number number">03.</span>
+            <span className="title">Contact</span>
           </div>
           <div className="contacts">
             <p>You can contact me through Telegram or email me directly.</p>
